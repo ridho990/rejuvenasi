@@ -13,6 +13,8 @@ import {
 	pembina,
 	poster,
 	iconClose,
+	aspirasi,
+	jadwalPiket,
 } from '../constant/data.js';
 import Title from '../component/Title.jsx';
 import BtnPdf from '../component/BtnPdf.jsx';
@@ -111,7 +113,7 @@ const Home = () => {
 						</div>
 
 						<div className="py-4 px-2 flex flex-col gap-y-3 border-b border-[#F4F4F4]">
-							<Title title="PEDOMAN" icons={iconBook} />
+							<Title title="BUKU" icons={iconBook} />
 							<BtnPdf title="AD/ART" onClick={() => handleBtnPdfClick(adArt)} />
 							<BtnPdf
 								title="Perduptar"
@@ -124,14 +126,14 @@ const Home = () => {
 						</div>
 
 						<div className="py-4 px-2 flex flex-col gap-y-3 border-b border-[#F4F4F4]">
-							<Title title="PEDOMAN" icons={iconCalendar} />
+							<Title title="JADWAL" icons={iconCalendar} />
 							<BtnPdf
 								title="Pembina"
 								onClick={() => handleBtnPdfClick(pembina)}
 							/>
 							<BtnPdf
 								title="Piket Jaga"
-								onClick={() => handleBtnPdfClick(pembina)}
+								onClick={() => handleBtnPdfClick(jadwalPiket)}
 							/>
 						</div>
 
@@ -139,10 +141,10 @@ const Home = () => {
 							<Title title="ASPIRASI" icons={iconChat} />
 							<BtnPdf
 								title="Aspirasi"
-								onClick={() => handleBtnPdfClick(pembina)}
+								onClick={() => handleBtnPdfClick(aspirasi)}
 							/>
 							<BtnPdf
-								title="Pindai Formulir"
+								title="Scan Barcode"
 								onClick={() => handleBtnPdfClick(poster)}
 							/>
 						</div>

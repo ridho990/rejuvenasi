@@ -9,6 +9,8 @@ import pembina from '../assets/pdf/pembina.pdf';
 import perduptar from '../assets/pdf/perduptar.pdf';
 import permen from '../assets/pdf/permen.pdf';
 import poster from '../assets/pdf/poster.pdf';
+import aspirasi from '../assets/pdf/aspirasi.pdf';
+import jadwalPiket from '../assets/pdf/jadwal-piket.pdf';
 
 export {
 	logoBpt,
@@ -22,4 +24,6 @@ export {
 	perduptar,
 	permen,
 	poster,
+	aspirasi,
+	jadwalPiket,
 };
